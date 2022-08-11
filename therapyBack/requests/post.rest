@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxnayIsImlkIjoiNjJjMTdmZWRkNGU1NzJhMmFhMTA5MDVlIiwiaWF0IjoxNjU2ODQ4MzcyfQ.iR-8vxbwghfRs_HsfKg8D7PkU9ZCaxnYwpHV1Ax5m4w
+
+{
+  "title": "authorization testii",
+  "author": "romppa",
+  "url": "xd.net",
+  "likes": 123
+}
